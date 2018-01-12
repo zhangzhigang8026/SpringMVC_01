@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spmvc_01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spmvc_01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jta.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/asm-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aspectjrt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javassist.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/hibernate3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/antlr-2.7.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/asm-util-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ejb3-persistence.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/asm-commons-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/cglib-nodep-2.1_3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/hibernate-annotations.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-2.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/hibernate-commons-annotations.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.8-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
